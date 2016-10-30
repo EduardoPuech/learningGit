@@ -54,6 +54,8 @@ When I want to push my code into the master code I click in the green button cal
 A "Merge pull request" button appears (if working on groups better not to merge your own request unless necessary). This panel allows you to maintain a conversation (about your code) with other participants working on the project for example. Once clicked there is a confirmation button, again green named "Confirm merge". This includes your code to the main branch code. It becomes part of the
 main program.
 
+And I added this because I can
+
 
 
 
