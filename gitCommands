@@ -8,7 +8,8 @@ Level 1
 
 1- git clone url	// access web page created repository
 2- git status 		// shows difference between my archive and github's cloud
-3- git add 		// inserts (adds) any changes by name (one by one), the result is a "to be 		extras:		   commited" thing
+3- git add 		// inserts (adds) any changes by name (one by one), the result is a "to be 		
+	extras:		   commited" thing
 	-A		// All
 	.		// (i think it means all too)
 4- git commit 		// upload to gitHub (though is still in my computer), not yet synced up
