@@ -1,0 +1,59 @@
+Git Commands
+
+https://www.github.com/
+
+Remember to be in the proper directory
+
+Level 1
+
+1- git clone url	// access web page created repository
+2- git status 		// shows difference between my archive and github's cloud
+3- git add 		// inserts (adds) any changes by name (one by one), the result is a "to be 		extras:		   commited" thing
+	-A		// All
+	.		// (i think it means all too)
+4- git commit 		// upload to gitHub (though is still in my computer), not yet synced up
+	extras:
+	-m "message"	// include a message in the upload
+			// in case of commit without a message a "wild" prompt will appear, to exit
+			// this prompt just press esc, then :wq (since its vi text editor based it
+			// uses vi's commands
+5- git push		// upload to gitHub cloud, NOW its available to everyone
+	extras:
+	name		// where do I push my file, e.g. name of branch
+6- git pull		// download from gitHub to my computer
+
+CONFLICT: changes in the same line (numerical order) made from two different machines
+
+<<<<<<<HEAD
+	code	// my code
+=======
+	code	// the other guy's code
+>>>>>>>name of current branch
+
+To solve this issue you have to correct the code manually (it can be difficult)
+
+Level 2
+
+master is the main/final branch
+
+7- git branch		// checks in which branch your are currently working
+	extras:
+	name		// creates a new branch named something, naming this adequately can simplify
+			// reading or understanding the code evolution
+8- git checkout name	// switch branches
+9- git merge name	// once you are in a new branch you can update the code from another branch
+			// (lets say master) to the one you are currently using
+
+Now, go back to github.com:
+
+If I added a branch there is a button called "branch" that shows the number and names of all the current branches. If I browse between branches I can check differences.
+
+When I want to push my code into the master code I click in the green button called "Pull request" (note conflict between pushing with a pull request...)
+
+A "Merge pull request" button appears (if working on groups better not to merge your own request unless necessary). This panel allows you to maintain a conversation (about your code) with other participants working on the project for example. Once clicked there is a confirmation button, again green named "Confirm merge". This includes your code to the main branch code. It becomes part of the
+main program.
+
+
+
+
+
