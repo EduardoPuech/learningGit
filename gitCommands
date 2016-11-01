@@ -11,7 +11,7 @@ Level 1
 3- git add 		// inserts (adds) any changes by name (one by one), the result is a "to be 		
 	extras:		   commited" thing
 	-A		// All
-	.		// (i think it means all too)
+	.		// (I think it means all too)
 4- git commit 		// upload to gitHub (though is still in my computer), not yet synced up
 	extras:
 	-m "message"	// include a message in the upload
@@ -47,11 +47,16 @@ master is the main/final branch
 
 Now, go back to github.com:
 
-If I added a branch there is a button called "branch" that shows the number and names of all the current branches. If I browse between branches I can check differences.
+If I added a branch there is a button called "branch" that shows the number and names of all the current branches.
+ If I browse between branches I can check differences.
 
-When I want to push my code into the master code I click in the green button called "Pull request" (note conflict between pushing with a pull request...)
+When I want to push my code into the master code I click in the green button called 
+"Pull request" (note conflict between pushing with a pull request...)
 
-A "Merge pull request" button appears (if working on groups better not to merge your own request unless necessary). This panel allows you to maintain a conversation (about your code) with other participants working on the project for example. Once clicked there is a confirmation button, again green named "Confirm merge". This includes your code to the main branch code. It becomes part of the
+A "Merge pull request" button appears (if working on groups better not to merge your own request unless necessary). 
+This panel allows you to maintain a conversation (about your code) with other participants working on the project for example.
+ Once clicked there is a confirmation button, again green named "Confirm merge".
+ This includes your code to the main branch code. It becomes part of the
 main program.
 
 And I added this because I can
